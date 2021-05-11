@@ -5,7 +5,7 @@ while (choice != "quit") {
   choice = choice.toLowerCase();
   switch (choice) {
     case "list":
-      listAction();
+      listAction(); // prints actions on console
       break;
     case "add":
       let newItem = prompt(`Enter a todo item`);
